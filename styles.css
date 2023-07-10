@@ -1,1 +1,36 @@
-/* your code */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,500&display=swap');
+table{
+	border-radius:5px;
+}
+table, td, th{
+	//border:1px solid black;
+	border-collapse : collapse;
+	padding:5px 20px;
+	text-align:center;
+	font-family: 'Roboto', sans-serif;
+
+}
+th,td{
+	width:100px;
+	height:25px;
+	border:1px solid black;
+
+	
+}
+thead{
+	background:#3366ff;
+	color:whitesmoke;
+}
+thead:nth-child(2n){
+	border-radius: 10px 0 0 0;
+}
+tbody{
+	font-size:16px;
+}
+tbody tr:nth-child(2n+1){
+	background:#ebebe0;
+	border-radius: 10px 0 0 0;
+}
+tbody tr:nth-child(2n+1){
+	
+}
